@@ -487,7 +487,7 @@ async def post_init(application: Application):
             'port': int(os.getenv('SSH_PORT', 22)),
             'username': os.getenv('SSH_USER'),
             'password': os.getenv('SSH_PASSWORD'),
-            'key_file': os.getenv('SSH_KEY_FILE')
+            'key_file': os.getenv('PRIVATE_KEY')
         }
     
     bot = ClaudeMCPBot(config)
