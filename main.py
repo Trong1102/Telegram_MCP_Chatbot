@@ -58,8 +58,18 @@ class MCPMySQLServer:
                 }
                 
                 # Use key file if provided, otherwise use password
-                if self.ssh_config.get('key_file'):
-                    ssh_params['ssh_pkey'] = self.ssh_config['key_file']
+                # if self.ssh_config.get('key_file'):
+                #     ssh_params['ssh_pkey'] = self.ssh_config['key_file']
+                # elif self.ssh_config.get('password'):
+                #     ssh_params['ssh_password'] = self.ssh_config['password']
+                if self.ssh_config.get('private_key'):
+                    # Tạo file tạm cho private key
+                    key_content = self.ssh_config['private_key']
+                    key_path = "temp_key.pem"
+                    with open(key_path, "w") as key_file:
+                        key_file.write(key_content)
+                    os.chmod(key_path, 0o600)  # quyền đọc riêng tư
+                    ssh_params['ssh_pkey'] = key_path
                 elif self.ssh_config.get('password'):
                     ssh_params['ssh_password'] = self.ssh_config['password']
                 
@@ -487,7 +497,8 @@ async def post_init(application: Application):
             'port': int(os.getenv('SSH_PORT', 22)),
             'username': os.getenv('SSH_USER'),
             'password': os.getenv('SSH_PASSWORD'),
-            'key_file': os.getenv('PRIVATE_KEY')
+            'private_key': os.getenv('PRIVATE_KEY')
+            # 'key_file': os.getenv('SSH_KEY_FILE')
         }
     
     bot = ClaudeMCPBot(config)
