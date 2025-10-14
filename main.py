@@ -479,6 +479,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def post_init(application: Application):
     """Initialize bot after application starts"""
+    print("DEBUG - CLAUDE_API_KEY:", os.getenv("CLAUDE_API_KEY"))
     config = {
         'claude_api_key': os.getenv('CLAUDE_API_KEY'),
         'mysql_config': {
