@@ -394,7 +394,7 @@ async def send_long_message(message, text, parse_mode='Markdown', max_length=400
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle /start command"""
     await update.message.reply_text(
-        "Xin chào! Tôi là chatbot hỗ trợ trả lời câu hỏi về database clinic.\n"
+        "Xin chào! Tôi là chatbot hỗ trợ trả lời câu hỏi về database Skin&Beam clinic.\n"
         "Bạn có thể hỏi tôi về:\n"
         "- Thông tin bệnh nhân\n"
         "- Lịch hẹn khám\n"
@@ -451,7 +451,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     # If Markdown parsing fails, send as plain text
                     await update.message.reply_text(response)
         except asyncio.TimeoutError:
-            await processing_msg.edit_text("⏱️ Xử lý mất quá nhiều thời gian. Vui lòng thử lại với câu hỏi đơn giản hơn.")
+            await processing_msg.edit_text("⏱️ Processing took too long. Please try again with a simpler question.")
         except Exception as e:
             logger.error(f"Error processing message: {str(e)}")
             await processing_msg.edit_text("❌ Có lỗi xảy ra. Vui lòng thử lại sau.")
@@ -469,7 +469,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await asyncio.wait_for(
                 context.bot.send_message(
                     chat_id=update.effective_chat.id,
-                    text="❌ Đã xảy ra lỗi. Vui lòng thử lại với câu hỏi đơn giản hơn."
+                    text="❌ An error occurred. Please try again with a simpler question."
                 ),
                 timeout=5.0
             )
