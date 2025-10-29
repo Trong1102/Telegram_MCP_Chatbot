@@ -220,7 +220,7 @@ class ClaudeMCPBot:
         
         try:
             # Sử dụng file schema đã tối ưu
-            schema_file = 'db_schema_optimized.json'  # Thay đổi từ db_schema.json
+            schema_file = 'db_schema.json'  # Thay đổi từ db_schema.json
             
             if os.path.exists(schema_file):
                 with open(schema_file, 'r', encoding='utf-8') as f:
