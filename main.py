@@ -167,52 +167,74 @@ class ClaudeMCPBot:
         self.conversation_history = {}  # Store conversation history per user
         self.db_schema = None  # Will be set during initialization
         
+#     async def start_mcp(self):
+#         """Initialize MCP server and fetch database schema once"""
+#         await self.mcp_server.start()
+#         logger.info("MCP MySQL server started")
+        
+#         # Fetch and store database schema once at startup
+#         logger.info("Fetching database schema...")
+#         try:
+#             schema = await self.mcp_server.get_database_schema()
+            
+#             # Format schema for context
+#             context = "Database Schema:\n"
+#             for table in schema:
+#                 context += f"\nTable: {table['table_name']}\n"
+#                 context += "Columns:\n"
+#                 for col in table['columns']:
+#                     context += f"  - {col['COLUMN_NAME']} ({col['DATA_TYPE']})"
+#                     if col['COLUMN_KEY'] == 'PRI':
+#                         context += " PRIMARY KEY"
+#                     if col['IS_NULLABLE'] == 'NO':
+#                         context += " NOT NULL"
+#                     context += "\n"
+            
+#             self.db_schema = context
+#             logger.info(f"Database schema loaded successfully with {len(schema)} tables")
+            
+#             # Optionally save schema to file
+#             try:
+#                 with open('db_schema.json', 'w', encoding='utf-8') as f:
+#                     json.dump(schema, f, ensure_ascii=False, indent=2)
+#                 logger.info("Schema saved to db_schema.json")
+#             except Exception as e:
+#                 logger.warning(f"Could not save schema to file: {e}")
+            
+#         except Exception as e:
+#             logger.error(f"Failed to load database schema: {str(e)}")
+#             # Set minimal schema as fallback
+#             self.db_schema = """Database tables available:
+# - customers: Customer information
+# - branches: Clinic branches
+# - booking: Appointment bookings
+# - payment_history: Payment records
+# - products: Product catalog
+# - services: Service catalog
+# - employees: Staff information
+# - customer_ranks: Customer ranking system"""
     async def start_mcp(self):
         """Initialize MCP server and fetch database schema once"""
         await self.mcp_server.start()
         logger.info("MCP MySQL server started")
         
-        # Fetch and store database schema once at startup
-        logger.info("Fetching database schema...")
         try:
-            schema = await self.mcp_server.get_database_schema()
+            # Sử dụng file schema đã tối ưu
+            schema_file = 'db_schema_optimized.json'  # Thay đổi từ db_schema.json
             
-            # Format schema for context
-            context = "Database Schema:\n"
-            for table in schema:
-                context += f"\nTable: {table['table_name']}\n"
-                context += "Columns:\n"
-                for col in table['columns']:
-                    context += f"  - {col['COLUMN_NAME']} ({col['DATA_TYPE']})"
-                    if col['COLUMN_KEY'] == 'PRI':
-                        context += " PRIMARY KEY"
-                    if col['IS_NULLABLE'] == 'NO':
-                        context += " NOT NULL"
-                    context += "\n"
+            if os.path.exists(schema_file):
+                with open(schema_file, 'r', encoding='utf-8') as f:
+                    schema_data = json.load(f)
+            
+            # Format schema ngắn gọn hơn
+            context = "Database Schema:\n\n"
+            for table in schema_data:
+                context += f"{table['table_name']}: "
+                cols = [col['COLUMN_NAME'] for col in table['columns']]
+                context += f"{', '.join(cols)}\n"
             
             self.db_schema = context
-            logger.info(f"Database schema loaded successfully with {len(schema)} tables")
-            
-            # Optionally save schema to file
-            try:
-                with open('db_schema.json', 'w', encoding='utf-8') as f:
-                    json.dump(schema, f, ensure_ascii=False, indent=2)
-                logger.info("Schema saved to db_schema.json")
-            except Exception as e:
-                logger.warning(f"Could not save schema to file: {e}")
-            
-        except Exception as e:
-            logger.error(f"Failed to load database schema: {str(e)}")
-            # Set minimal schema as fallback
-            self.db_schema = """Database tables available:
-- customers: Customer information
-- branches: Clinic branches
-- booking: Appointment bookings
-- payment_history: Payment records
-- products: Product catalog
-- services: Service catalog
-- employees: Staff information
-- customer_ranks: Customer ranking system"""
+            logger.info(f"Schema loaded: {len(context)} characters (optimized)")
         
     async def stop_mcp(self):
         """Stop MCP server"""
@@ -231,7 +253,7 @@ class ClaudeMCPBot:
         """Process user query about database"""
         try:
             # Set shorter timeout and use more efficient approach
-            async with asyncio.timeout(20):  # Reduced from 25 seconds
+            async with asyncio.timeout(30):  # Reduced from 25 seconds
                 # Get database context
                 db_context = await self.get_database_context()
                 
