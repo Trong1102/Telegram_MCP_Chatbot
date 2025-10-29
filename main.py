@@ -235,7 +235,18 @@ class ClaudeMCPBot:
             
             self.db_schema = context
             logger.info(f"Schema loaded: {len(context)} characters (optimized)")
-        
+        except Exception as e:
+            logger.error(f"Failed to load database schema: {str(e)}")
+            # Set minimal schema as fallback
+            self.db_schema = """Database tables available:
+- customers: Customer information
+- branches: Clinic branches
+- booking: Appointment bookings
+- payment_history: Payment records
+- products: Product catalog
+- services: Service catalog
+- employees: Staff information
+- customer_ranks: Customer ranking system"""
     async def stop_mcp(self):
         """Stop MCP server"""
         await self.mcp_server.stop()
