@@ -289,6 +289,7 @@ class ClaudeMCPBot:
                 2. Use COUNT(*) instead of selecting all rows when counting
                 3. Avoid complex JOINs unless necessary
                 4. For status checks, use simple WHERE clauses
+                5. Add query time to answers that require database query.
                 
                 Example efficient queries:
                 - Count pending bookings: SELECT COUNT(*) FROM booking WHERE status = 'pending'
@@ -300,7 +301,10 @@ class ClaudeMCPBot:
                 - Generate SQL in <sql></sql> tags
                 - Respond in the language requested by user
                 - If query might be slow, use COUNT or LIMIT first
-                - For "chưa được làm" (not completed), look for status != 'completed' or similar"""
+                - For "chưa được làm" (not completed), look for status != 'completed' or similar
+                - TST = Tsim Sha Tsui branch, MK = Mong Kok branch, CWB = Causeway Bay branch.
+                
+                """
                 
                 # Get response from Claude
                 message = await self.anthropic.messages.create(
