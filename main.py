@@ -239,14 +239,14 @@ class ClaudeMCPBot:
             logger.error(f"Failed to load database schema: {str(e)}")
             # Set minimal schema as fallback
             self.db_schema = """Database tables available:
-- customers: Customer information
-- branches: Clinic branches
-- booking: Appointment bookings
-- payment_history: Payment records
-- products: Product catalog
-- services: Service catalog
-- employees: Staff information
-- customer_ranks: Customer ranking system"""
+                                - customers: Customer information
+                                - branches: Clinic branches
+                                - booking: Appointment bookings
+                                - payment_history: Payment records
+                                - products: Product catalog
+                                - services: Service catalog
+                                - employees: Staff information
+                                - customer_ranks: Customer ranking system"""
     async def stop_mcp(self):
         """Stop MCP server"""
         await self.mcp_server.stop()
@@ -280,7 +280,7 @@ class ClaudeMCPBot:
                 })
                 
                 # Create prompt for Claude
-                system_prompt = f"""You are a helpful assistant that answers questions about a clinic database.
+                system_prompt = f"""You are an assistant for the Skin&Beam Clinic, specializing in using the database to answer questions related to the clinic. You primarily respond to questions from managers and directors.
                 
                 {db_context}
                 
@@ -305,7 +305,7 @@ class ClaudeMCPBot:
                 # Get response from Claude
                 message = await self.anthropic.messages.create(
                     model="claude-sonnet-4-20250514",  # Claude Sonnet 4
-                    max_tokens=4096,
+                    max_tokens=2000,
                     temperature=0,
                     system=system_prompt,
                     messages=messages
@@ -360,9 +360,9 @@ class ClaudeMCPBot:
                             
                             format_prompt = f"""Based on these query results, provide a clear, natural response that answers: "{user_query}"
 
-Results: {results_json}
+                                                Results: {results_json}
 
-Format the response nicely without showing raw data or SQL."""
+                                                Format the response nicely without showing raw data or SQL."""
                             
                             format_message = await self.anthropic.messages.create(
                                 model="claude-sonnet-4-20250514",
@@ -427,18 +427,18 @@ async def send_long_message(message, text, parse_mode='Markdown', max_length=400
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle /start command"""
     await update.message.reply_text(
-        "Xin chào! Tôi là chatbot hỗ trợ trả lời câu hỏi về database Skin&Beam clinic.\n"
-        "Bạn có thể hỏi tôi về:\n"
-        "- Thông tin bệnh nhân\n"
-        "- Lịch hẹn khám\n"
-        "- Thông tin bác sĩ\n"
-        "- Chi nhánh phòng khám\n"
-        "- Doanh thu và thanh toán\n"
-        "- Và các thông tin khác trong database\n\n"
+        "Hello! I’m the chatbot that helps answer questions about the Skin&Beam Clinic database.\n"
+        "You can ask me about:\n"
+        "- Patient information\n"
+        "- Appointment schedules\n"
+        "- Doctor information\n"
+        "- Clinic branches\n"
+        "- Revenue and payments\n"
+        "- And other data stored in the database\n\n"
         "Commands:\n"
-        "/start - Bắt đầu\n"
-        "/clear - Xóa lịch sử chat\n\n"
-        "Hãy đặt câu hỏi của bạn!"
+        "/start - Start\n"
+        "/clear - Clear chat history\n\n"
+        "Please enter your question!"
     )
 
 async def clear_history(update: Update, context: ContextTypes.DEFAULT_TYPE):
