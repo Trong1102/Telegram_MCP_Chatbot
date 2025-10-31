@@ -1,3 +1,4 @@
+31/10/2025
 import os
 import json
 import asyncio
@@ -290,7 +291,7 @@ class ClaudeMCPBot:
                 3. Avoid complex JOINs unless necessary
                 4. For status checks, use simple WHERE clauses
                 5. Add query time to answers that require database query.
-                6. When query, TST = SB-TSIM-SHA-TSUI, MK = SB-MONG-KOK, CWB = SB-CAUSEWAY-BAY.
+                
                 Example efficient queries:
                 - Count pending bookings: SELECT COUNT(*) FROM booking WHERE status = 'pending'
                 - Recent bookings: SELECT * FROM booking ORDER BY created_at DESC LIMIT 10
@@ -302,6 +303,7 @@ class ClaudeMCPBot:
                 - Respond in the language requested by user
                 - If query might be slow, use COUNT or LIMIT first
                 - For "chưa được làm" (not completed), look for status != 'completed' or similar
+                - TST = Tsim Sha Tsui branch, MK = Mong Kok branch, CWB = Causeway Bay branch.
                 
                 """
                 
