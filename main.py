@@ -219,8 +219,7 @@ class ClaudeMCPBot:
         logger.info("MCP MySQL server started")
         
         try:
-            # Sử dụng file schema đã tối ưu
-            schema_file = 'db_schema.json'  # Thay đổi từ db_schema.json
+            schema_file = 'db_schema.json'
             
             if os.path.exists(schema_file):
                 with open(schema_file, 'r', encoding='utf-8') as f:
@@ -264,7 +263,7 @@ class ClaudeMCPBot:
         """Process user query about database"""
         try:
             # Set shorter timeout and use more efficient approach
-            async with asyncio.timeout(30):  # Reduced from 25 seconds
+            async with asyncio.timeout(30):
                 # Get database context
                 db_context = await self.get_database_context()
                 
@@ -300,23 +299,22 @@ class ClaudeMCPBot:
                 IMPORTANT DATABASE VALUES AND MEANINGS:
                 
                 ## Branch codes (branch field):
-                - SB-TSIM-SHA-TSUI (TST): Chi nhánh Tsim Sha Tsui
-                - SB-MONG-KOK (MK): Chi nhánh Mong Kok  
-                - SB-CAUSEWAY-BAY (CWB): Chi nhánh Causeway Bay
-                
-                ## Booking status values:
-                - 'WAITING': 
-                - 'CONFIRMED': Nếu trước ngày hôm nay là khách đặt lịch nhưng không đến,
-                                Nếu hôm nay là khách hàng chưa đến.
+                - SB-TSIM-SHA-TSUI (TST): Tsim Sha Tsui branch
+                - SB-MONG-KOK (MK): Mong Kok branch
+                - SB-CAUSEWAY-BAY (CWB): Causeway Bay branch
 
-                - 'CANCELED': Khách hàng hủy lịch.
-                - 'CHECKED_IN': Khách hàng đã đến và chờ làm dịch vụ.
-                - 'PAID': Khách hàng đang trong liệu trình.
-                - 'FINISHED': Khách hàng đã hoàn tất liệu trình.
-                - 'REJECTED': 
+                ## Booking status values:
+                - 'WAITING': Waiting/Pending
+                - 'CONFIRMED': If before today - customer booked but didn't show up (no-show),
+                            If today - customer hasn't arrived yet.
+                - 'CANCELED': Customer canceled the appointment.
+                - 'CHECKED_IN': Customer has arrived and is waiting for service.
+                - 'PAID': Customer is currently in treatment/service in progress.
+                - 'FINISHED': Customer has completed the treatment.
+                - 'REJECTED': Rejected/Declined
 
                 IMPORTANT:
-                - Unit: HKD
+                - Database currency: HKD
                 - Generate SQL in <sql></sql> tags
                 - Respond in the language requested by user
                 - If query might be slow, use COUNT or LIMIT first
