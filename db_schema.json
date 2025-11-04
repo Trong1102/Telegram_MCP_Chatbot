@@ -5,114 +5,86 @@
       {
         "COLUMN_NAME": "additional",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "ai_mira_memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "anesthesia_time",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "assi_memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "booking_date",
         "DATA_TYPE": "datetime",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "booking_memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "building",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "canceled_date",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "channel",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "checked_in_date",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "chief_complaint",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "consult_cell_text",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "consult_cell_time",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "consult_memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "consult_user_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
@@ -124,30 +96,24 @@
       {
         "COLUMN_NAME": "customer_comment",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "customer_location_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "diagnosis",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -159,113 +125,86 @@
       {
         "COLUMN_NAME": "interpreter_user_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "is_consult",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_consult_cell",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_first_visit",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "VALUE_SET": [0,1]
       },
       {
         "COLUMN_NAME": "is_minor_consent",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_walk_in",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "notice_memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "procedure_location_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "reception_user_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "rejection_reason",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "select_now_anesthesia_time",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "status",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
         "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "VALUE_SET": ["WAITING","CONFIRMED","CANCELED","CHECKED_IN","PAID","FINISHED","REJECTED"]
       },
       {
         "COLUMN_NAME": "treatment",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -276,30 +215,23 @@
       {
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "display_in_dashboard",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "highlight_color",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -311,29 +243,22 @@
       {
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -345,29 +270,23 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "day_of_week",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "end_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -380,21 +299,17 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "start_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -406,36 +321,30 @@
         "COLUMN_NAME": "booking_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "doctor_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "document_code",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "document_info",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -448,28 +357,24 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "issue_at",
         "DATA_TYPE": "date",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -480,44 +385,36 @@
       {
         "COLUMN_NAME": "assistant_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "bed_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "booking_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "doctor_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "esthetician_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -529,79 +426,62 @@
       {
         "COLUMN_NAME": "is_complete",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_signed",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_start",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "procedure_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "product_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "state",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "ticket_history_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "updated_state_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       }
     ]
   },
@@ -611,23 +491,19 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "group_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -640,21 +516,17 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "memo",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -666,14 +538,12 @@
         "COLUMN_NAME": "booking_photo_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -686,29 +556,23 @@
       {
         "COLUMN_NAME": "img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -720,35 +584,29 @@
         "COLUMN_NAME": "booking_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "product_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -760,28 +618,24 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "close_end_date",
         "DATA_TYPE": "date",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "close_start_date",
         "DATA_TYPE": "date",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -794,8 +648,7 @@
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -806,93 +659,70 @@
       {
         "COLUMN_NAME": "address",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "banner_img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "banner_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "brand",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "business_license_number",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "ceo_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "check_in_location",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "email",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "fax",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "homepage_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -904,149 +734,108 @@
       {
         "COLUMN_NAME": "is_ai_chatbot",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_customer_count",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_homepage_reschedule",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_inquiry",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_mira_reschedule",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "kakao_app_key",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "kakao_channel_public_id",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "kakao_id",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "logo_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "notifly_project_id",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "nursing_number",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "phone",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "privacy_policy",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "region",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "terms_policy",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "video_surveillance_policy",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       }
     ]
   },
@@ -1058,22 +847,18 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "end_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -1085,30 +870,24 @@
       {
         "COLUMN_NAME": "is_closed",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "start_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "week",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       }
     ]
   },
@@ -1118,16 +897,14 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "end_date",
         "DATA_TYPE": "datetime",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -1140,35 +917,29 @@
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "start_date",
         "DATA_TYPE": "datetime",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -1180,15 +951,13 @@
         "COLUMN_NAME": "broken_equipment_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "category_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       }
     ]
   },
@@ -1199,14 +968,12 @@
         "COLUMN_NAME": "category_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -1220,42 +987,33 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "max_capacity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -1266,9 +1024,7 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -1280,30 +1036,22 @@
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "max_capacity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       }
     ]
   },
@@ -1313,16 +1061,14 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -1335,21 +1081,18 @@
         "COLUMN_NAME": "merged_customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "staff_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -1360,16 +1103,14 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "id",
@@ -1381,30 +1122,24 @@
       {
         "COLUMN_NAME": "pronunciation",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "source",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "updated_by",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       }
     ]
   },
@@ -1415,14 +1150,12 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -1436,14 +1169,12 @@
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -1455,71 +1186,57 @@
         "COLUMN_NAME": "alias",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "allergy",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "birth",
         "DATA_TYPE": "date",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "chart_code",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "delete_reason",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "diseases",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "email",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "event_message_enabled_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "gender",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -1532,141 +1249,111 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_booking_message_enabled",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_event_message_enabled",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_photo_capture_enabled",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_pregnant",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "language",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "medical_history",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "mira_user_id",
         "DATA_TYPE": "bigint",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "nation",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "notifly_user_id",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "passport_id",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "personal_id",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "phone",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "preferred_consult_manager_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "preferred_doctor_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "rank_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "visit_type",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       }
     ]
   },
@@ -1676,30 +1363,24 @@
       {
         "COLUMN_NAME": "caution_msg",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "formation_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -1712,35 +1393,27 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_locked",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_pinned",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "staff_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -1751,16 +1424,13 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -1773,70 +1443,53 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_temporary",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "merit",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "procedure_info",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "sequence_info",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "suggest",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "text_area",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -1847,58 +1500,44 @@
       {
         "COLUMN_NAME": "banner_img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "banner_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "caution_text_area",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "caution_title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "display_category_extra",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "display_category_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -1910,92 +1549,67 @@
       {
         "COLUMN_NAME": "language",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "merit",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "procedure_info",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "procedure_precautions_extra",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "procedure_process_extra",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "qa_extra",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "sequence_info",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "suggest",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "text_area",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2006,23 +1620,19 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "group_type",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -2035,42 +1645,33 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_temporary",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2082,22 +1683,18 @@
         "COLUMN_NAME": "display_category_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "display_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       }
     ]
   },
@@ -2107,23 +1704,19 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "display_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -2135,22 +1728,17 @@
       {
         "COLUMN_NAME": "language",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2161,51 +1749,38 @@
       {
         "COLUMN_NAME": "banner_img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "banner_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "detail_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "end_date",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "end_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -2218,85 +1793,63 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_temporary",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "show_date",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "start_date",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "start_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "week",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       }
     ]
   },
@@ -2307,22 +1860,18 @@
         "COLUMN_NAME": "event_display_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "product_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       }
     ]
   },
@@ -2332,44 +1881,34 @@
       {
         "COLUMN_NAME": "banner_img_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "banner_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "detail_img_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "event_display_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -2381,36 +1920,27 @@
       {
         "COLUMN_NAME": "language",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "thumbnail_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "thumbnail_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2422,14 +1952,12 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -2442,36 +1970,27 @@
       {
         "COLUMN_NAME": "legacy_code",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2483,22 +2002,19 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "floor_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -2511,49 +2027,39 @@
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_floor",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "state",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2564,8 +2070,7 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -2579,35 +2084,29 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2619,14 +2118,12 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -2639,51 +2136,39 @@
       {
         "COLUMN_NAME": "insurance_type",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "is_antipsychotic",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "prescription_info",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "use_date",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       }
     ]
   },
@@ -2693,44 +2178,34 @@
       {
         "COLUMN_NAME": "auto_send_day",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "auto_send_trigger",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "category_list",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "gender_list",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -2743,35 +2218,30 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_advertise",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "title",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "type",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2782,30 +2252,24 @@
       {
         "COLUMN_NAME": "balance",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -2817,30 +2281,23 @@
       {
         "COLUMN_NAME": "mileage",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "payment_history_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "type",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "version",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       }
     ]
   },
@@ -2850,30 +2307,24 @@
       {
         "COLUMN_NAME": "confirmed_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "discount",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -2885,50 +2336,37 @@
       {
         "COLUMN_NAME": "is_tax_free",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "refunded_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "status",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "tax",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "total_payment",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "total_price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -2939,44 +2377,35 @@
       {
         "COLUMN_NAME": "additional",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "booking_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "confirmed_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "discount",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -2988,113 +2417,83 @@
       {
         "COLUMN_NAME": "is_mileage_refund",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "is_split",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "is_tax_free",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "mileage_used",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "non_taxable_payment",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "refunded_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "refunded_memo",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "refunded_type",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "status",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "supply_value",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "tax",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "taxable_payment",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "total_payment",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "total_price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "transaction_id",
         "DATA_TYPE": "char",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3105,51 +2504,38 @@
       {
         "COLUMN_NAME": "acquirer_name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "acquirer_number",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "amount",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "approval_number",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "approved_at",
         "DATA_TYPE": "datetime",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "extra",
         "DATA_TYPE": "json",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -3161,72 +2547,57 @@
       {
         "COLUMN_NAME": "installment_month",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "is_refund",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "method",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "mileage_payment_history_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "original_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "payment_history_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "reason",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "status",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "terminal_id",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "transaction_id",
         "DATA_TYPE": "char",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       }
     ]
   },
@@ -3236,37 +2607,28 @@
       {
         "COLUMN_NAME": "additional",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "discount_price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "discount_rate",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "expiration_date",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -3279,42 +2641,33 @@
         "COLUMN_NAME": "payment_history_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "product_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "tax",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3326,14 +2679,12 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -3346,29 +2697,23 @@
       {
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "terminal_id",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3380,14 +2725,12 @@
         "COLUMN_NAME": "category_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -3401,70 +2744,56 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_doctor",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "point",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "treatment_time",
         "DATA_TYPE": "time",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "type",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3476,28 +2805,24 @@
         "COLUMN_NAME": "branch_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "procedure_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3509,14 +2834,12 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -3530,14 +2853,12 @@
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3549,14 +2870,12 @@
         "COLUMN_NAME": "branch",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -3570,50 +2889,40 @@
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "type",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "unit",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "volume",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       }
     ]
   },
@@ -3623,22 +2932,18 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "etc_quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "formation_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -3651,36 +2956,28 @@
       {
         "COLUMN_NAME": "input_quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "material_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "memo",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "output_quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3692,22 +2989,19 @@
         "COLUMN_NAME": "branch_info_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "floor_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -3720,21 +3014,17 @@
         "COLUMN_NAME": "inventory_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3745,23 +3035,19 @@
       {
         "COLUMN_NAME": "count",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "materials_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "procedure_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       }
     ]
   },
@@ -3771,8 +3057,7 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -3786,35 +3071,28 @@
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "product_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3826,50 +3104,39 @@
         "COLUMN_NAME": "category_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "display_category_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "event_discount_rate",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "event_price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "event_type",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "id",
@@ -3882,70 +3149,55 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_tax_free",
         "DATA_TYPE": "tinyint",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "legacy_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "memo",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "order_by",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "price",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "product_type",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -3956,23 +3208,19 @@
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "procedure_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       },
       {
         "COLUMN_NAME": "procedure_selection_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "PRI",
-        "EXTRA": ""
+        "COLUMN_KEY": "PRI" 
       }
     ]
   },
@@ -3982,16 +3230,13 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "description",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "id",
@@ -4003,29 +3248,23 @@
       {
         "COLUMN_NAME": "language",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "product_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -4037,22 +3276,19 @@
         "COLUMN_NAME": "birth",
         "DATA_TYPE": "date",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "employ_at",
         "DATA_TYPE": "date",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -4064,85 +3300,68 @@
       {
         "COLUMN_NAME": "image_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_delete",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "is_display",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "language",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "license_number",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "memo",
         "DATA_TYPE": "text",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "phone",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "role",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "seal_url",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -4153,8 +3372,7 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -4168,14 +3386,12 @@
         "COLUMN_NAME": "name",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -4186,16 +3402,14 @@
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -4207,36 +3421,29 @@
       {
         "COLUMN_NAME": "initial_quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "package_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "procedure_selection_group_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]
@@ -4248,22 +3455,19 @@
         "COLUMN_NAME": "booking_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "customer_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "id",
@@ -4276,43 +3480,35 @@
         "COLUMN_NAME": "procedure_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "quantity",
         "DATA_TYPE": "int",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "ticket_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "type",
         "DATA_TYPE": "enum",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
         "COLUMN_NAME": "used_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "YES",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "YES"  
       }
     ]
   },
@@ -4322,15 +3518,12 @@
       {
         "COLUMN_NAME": "authority",
         "DATA_TYPE": "enum",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "created_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       },
       {
@@ -4344,35 +3537,29 @@
         "COLUMN_NAME": "is_active",
         "DATA_TYPE": "tinyint",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "login_id",
         "DATA_TYPE": "varchar",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "UNI",
-        "EXTRA": ""
+        "COLUMN_KEY": "UNI" 
       },
       {
         "COLUMN_NAME": "password",
         "DATA_TYPE": "varchar",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
-        "EXTRA": ""
+        "IS_NULLABLE": "NO"  
       },
       {
         "COLUMN_NAME": "staff_id",
         "DATA_TYPE": "int",
         "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "MUL",
-        "EXTRA": ""
+        "COLUMN_KEY": "MUL" 
       },
       {
         "COLUMN_NAME": "updated_at",
         "DATA_TYPE": "datetime",
-        "IS_NULLABLE": "NO",
-        "COLUMN_KEY": "",
+        "IS_NULLABLE": "NO" ,
         "EXTRA": "DEFAULT_GENERATED"
       }
     ]

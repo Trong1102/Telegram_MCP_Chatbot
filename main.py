@@ -296,12 +296,30 @@ class ClaudeMCPBot:
                 - Recent bookings: SELECT * FROM booking ORDER BY created_at DESC LIMIT 10
                 - Customer count: SELECT COUNT(DISTINCT customer_id) FROM booking WHERE status = 'pending'
                 
+                 
+                IMPORTANT DATABASE VALUES AND MEANINGS:
+                
+                ## Branch codes (branch field):
+                - SB-TSIM-SHA-TSUI (TST): Chi nhánh Tsim Sha Tsui
+                - SB-MONG-KOK (MK): Chi nhánh Mong Kok  
+                - SB-CAUSEWAY-BAY (CWB): Chi nhánh Causeway Bay
+                
+                ## Booking status values:
+                - 'WAITING': 
+                - 'CONFIRMED': Nếu trước ngày hôm nay là khách đặt lịch nhưng không đến,
+                                Nếu hôm nay là khách hàng chưa đến.
+
+                - 'CANCELED': Khách hàng hủy lịch.
+                - 'CHECKED_IN': Khách hàng đã đến và chờ làm dịch vụ.
+                - 'PAID': Khách hàng đang trong liệu trình.
+                - 'FINISHED': Khách hàng đã hoàn tất liệu trình.
+                - 'REJECTED': 
+
                 IMPORTANT:
                 - Unit: HKD
                 - Generate SQL in <sql></sql> tags
                 - Respond in the language requested by user
                 - If query might be slow, use COUNT or LIMIT first
-                - For "chưa được làm" (not completed), look for status != 'completed' or similar
                 
                 """
                 
