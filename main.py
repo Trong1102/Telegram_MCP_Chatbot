@@ -312,6 +312,9 @@ class ClaudeMCPBot:
                 - 'PAID': Customer is currently in treatment/service in progress.
                 - 'FINISHED': Customer has completed the treatment.
                 - 'REJECTED': Rejected/Declined
+                ## Staff Schedule Information:
+                - To get staff work schedules for clinics, query and read information from the 'notices' table in the 'notice_msg' column
+                - Example query: SELECT * FROM notices WHERE branch = 'SB-TSIM-SHA-TSUI' AND is_pinned = 1 ORDER BY created_at DESC
 
                 IMPORTANT:
                 - Database currency: HKD
