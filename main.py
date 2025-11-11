@@ -484,7 +484,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_chat_action(chat_id=chat_id, action='typing')
     
     # Send immediate response to avoid timeout
-    processing_msg = await update.message.reply_text("🔍 Đang xử lý câu hỏi của bạn...")
+    processing_msg = await update.message.reply_text("🔍 Processing your question...")
     
     # Process query
     bot = context.bot_data.get('claude_bot')
