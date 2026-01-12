@@ -252,4 +252,4 @@ Nếu gặp vấn đề, vui lòng:
 
 **Phiên bản**: 1.0.0  
 **Cập nhật cuối**: January 2025  
-**Tác giả**: Development Team
+**Tác giả**: Trong1102
